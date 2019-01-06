@@ -59,16 +59,16 @@
 			<Item label="LED show a 5 seconds indication when the corresponding button is pressed" value="7" />
 			<Item label="LED indication is disabled, it is only controlled by Command Class Basic Set commands" value="8" />
 		</Value>
-		<Value type="byte" genre="config" instance="1" index="7" label="LED #1 brightness level" min="0" max="100" value="50">
+		<Value type="byte" genre="config" instance="1" index="7" label="LED #1 brightness level" min="0" max="100" value="15">
 			<Help>0 - 100 Specifies the brightness level of the LED when it is on.</Help>
 		</Value>
-		<Value type="byte" genre="config" instance="1" index="8" label="LED #2 brightness level" min="0" max="100" value="50">
+		<Value type="byte" genre="config" instance="1" index="8" label="LED #2 brightness level" min="0" max="100" value="15">
 			<Help>0 - 100 Specifies the brightness level of the LED when it is on.</Help>
 		</Value>
-		<Value type="byte" genre="config" instance="1" index="9" label="LED #3 brightness level" min="0" max="100" value="50">
+		<Value type="byte" genre="config" instance="1" index="9" label="LED #3 brightness level" min="0" max="100" value="15">
 			<Help>0 - 100 Specifies the brightness level of the LED when it is on.</Help>
 		</Value>
-		<Value type="byte" genre="config" instance="1" index="10" label="LED #4 brightness level" min="0" max="100" value="50">
+		<Value type="byte" genre="config" instance="1" index="10" label="LED #4 brightness level" min="0" max="100" value="15">
 			<Help>0 - 100 Specifies the brightness level of the LED when it is on.</Help>
 		</Value>
 		<Value type="byte" genre="config" instance="1" index="11" label="LED #1 off brightness level" min="0" max="100" value="00">
@@ -83,7 +83,7 @@
 		<Value type="byte" genre="config" instance="1" index="14" label="LED #4 off brightness level" min="0" max="100" value="00">
 			<Help>0 - 100 Specifies the brightness level of the LED when it is off.</Help>
 		</Value>
-		<Value type="list" genre="config" instance="1" index="15" label="Relay mode" min="0" max="13" value="1" size="1" >
+		<Value type="list" genre="config" instance="1" index="15" label="Relay mode" min="0" max="13" value="13" size="1" >
 			<Help>This parameter configures which of the buttons that shall control the built-in relay, or if the relay only will be activated for one second, each time button #1 is used.</Help>
 			<Item label="Relay is disabled" value="0" />
 			<Item label="Relay is controlled by button #1 or by upper paddle when pair mode is active" value="1" />
